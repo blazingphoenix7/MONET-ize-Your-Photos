@@ -45,9 +45,10 @@ Detailed instructions are provided for setting up the environment, preparing the
 2. **Download the dataset from ->** [Kaggle Monet Dataset](https://www.kaggle.com/competitions/gan-getting-started/data).
 3. **Unzip all the data directories.**
 4. **Set up your environment:**
-    - Ensure you have Python and the necessary packages installed as listed in requirements.txt. You can also run ```pip install requirements.txt``` in the directory where the cloned repository and datasets are stored. 
-    - A TPU is recommended for training the models efficiently.
-5. **Run the notebooks:** The Jupyter notebooks will guide you through the process of training the models and visualizing the results. Make sure to set the **GCS_PATH** variable to the directory where the cloned repository and datasets are stored. 
+    - Create and activate a conda env 
+    - Run ```pip install requirements.txt``` in the above activated conda env by using the requirements.txt uploaded in this repository. 
+    - Note: The above project was developed and tested on WSL2 running on a Windows+Nvidia GPU laptop. The tensorflow library was carefully built to enable GPU acceleration using CUDA.
+6. **Run the notebooks:** The Jupyter notebooks will guide you through the process of training the models and visualizing the results. Make sure to set the **GCS_PATH** variable to the directory where the cloned repository and datasets are stored. 
 
 
 ## Contributions and Collaboration
