@@ -41,12 +41,13 @@ Unlike traditional GANs, CycleGANs facilitate image-to-image translation without
 
 Detailed instructions are provided for setting up the environment, preparing the dataset, and running the training process. By following these guidelines, users can not only replicate this project's results but also experiment with modifying the architecture or training approach to explore new creative dimensions.
 
-1. **Clone this repository**.
-2. **Unzip all the data directories.**
-3. **Set up your environment**:
+1. **Clone this repository.**
+2. **Download the dataset from ```https://www.kaggle.com/competitions/gan-getting-started/data```**
+3. **Unzip all the data directories.**
+4. **Set up your environment:**
     - Ensure you have Python and the necessary packages installed as listed in requirements.txt. You can also run ```pip install requirements.txt``` in the directory where the cloned repository and datasets are stored. 
     - A TPU is recommended for training the models efficiently.
-4. **Run the notebooks**: The Jupyter notebooks will guide you through the process of training the models and visualizing the results. Make sure to set the **GCS_PATH** variable to the directory where the cloned repository and datasets are stored. 
+5. **Run the notebooks:** The Jupyter notebooks will guide you through the process of training the models and visualizing the results. Make sure to set the **GCS_PATH** variable to the directory where the cloned repository and datasets are stored. 
 
 
 ## Contributions and Collaboration
