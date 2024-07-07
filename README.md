@@ -1,4 +1,4 @@
-# MONET-ize-Your-Photos
+# MONET-ize-Your-Photos using Generative Adversarial Networks
 
 # Generating Monet with CycleGAN: Bridging AI and Impressionist Art
 
