@@ -41,12 +41,13 @@ Unlike traditional GANs, CycleGANs facilitate image-to-image translation without
 
 Detailed instructions are provided for setting up the environment, preparing the dataset, and running the training process. By following these guidelines, users can not only replicate this project's results but also experiment with modifying the architecture or training approach to explore new creative dimensions.
 
-## Potential Applications and Future Work
+1. **Clone this repository**.
+2. **Unzip all the data directories.**
+3. **Set up your environment**:
+    - Ensure you have Python and the necessary packages installed as listed in requirements.txt. You can also run ```pip install requirements.txt``` in the directory where the cloned repository and datasets are stored. 
+    - A TPU is recommended for training the models efficiently.
+4. **Run the notebooks**: The Jupyter notebooks will guide you through the process of training the models and visualizing the results. Make sure to set the **GCS_PATH** variable to the directory where the cloned repository and datasets are stored. 
 
-This project opens several pathways for future research and practical applications, including:
-- **Automated Art Generation**: Tools for artists to explore new creative processes.
-- **Educational Purposes**: Assisting in understanding art styles and history through visual examples.
-- **Commercial Product Development**: In fields like advertising, where brand-specific styling can be important.
 
 ## Contributions and Collaboration
 
