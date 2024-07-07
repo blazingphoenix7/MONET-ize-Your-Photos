@@ -48,7 +48,7 @@ Detailed instructions are provided for setting up the environment, preparing the
     - Create and activate a conda env 
     - Run ```pip install requirements.txt``` in the above activated conda env by using the requirements.txt uploaded in this repository. 
     - Note: The above project was developed and tested on WSL2 running on a Windows+Nvidia GPU laptop. The tensorflow library was carefully built to enable GPU acceleration using CUDA.
-6. **Run the notebooks:** The Jupyter notebooks will guide you through the process of training the models and visualizing the results. Make sure to set the **GCS_PATH** variable to the directory where the cloned repository and datasets are stored. 
+6. **Run the notebooks:** The Jupyter notebooks will guide you through the process of training the models and visualizing the results. Make sure to set the **GCS_PATH** variable to the directory where the datasets are stored and unzipped to. 
 
 
 ## Contributions and Collaboration
